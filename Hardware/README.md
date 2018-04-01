@@ -42,3 +42,10 @@ I went with a common “footprint” for the rotary encoder which you would find
 There's an incredibly wide range of options when choosing keyswitches and keycaps, and the MiniKbd footprint works with the popular Cherry MX, Cherry ML and Kailh Low Profile keyswitches. You'll find a wide array of options for [different levels of force or clickyness](http://www.keyboardco.com/blog/index.php/2012/12/an-introduction-to-cherry-mx-mechanical-switches/), the best advice I have is to search around and order a few and see what you like. I prefer the [“Tactile Brown” Kailh Low Profile keyswitches from Novel Keys](https://novelkeys.xyz/products/kailh-low-profile-switches) and don't forget to order the [keycaps](https://novelkeys.xyz/collections/keycaps/products/kailh-low-profile-keycaps-blank)
 
 
+### Enclosure
+*TK*
+
+
+### Building it
+*TK*
+
