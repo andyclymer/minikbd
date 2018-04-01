@@ -1,5 +1,7 @@
 # MiniKbd Hardware
 
+![minikbd-oshpark-front](/images/minikbd-oshpark-front.png)
+
 The MiniKbd is designed to be built in one of three configurations:
 
 - “Six keyboard keyswitches”
@@ -7,7 +9,7 @@ The MiniKbd is designed to be built in one of three configurations:
 - “One rotary encoder and two keyboard keyswitches”
 
 
-### Parts List
+## Parts List
 
 Since there's more than one way to build the MiniKbd, not all component footprints on the MiniKbd PCB need to be filled depending on the variation you choose to build. Here are the parts lists for all three versions:
 
@@ -33,7 +35,7 @@ Part | Adafruit | Mouser | Tayda | Floris
 2 × Keyswitches and keycaps (Cherry MX/ML, Kailh) _*(See note)_  | — | [Cherry MX](https://www.mouser.com/Electromechanical/Switches/_/N-5g2h?Keyword=cherry+mx&FS=True) | — | —
 1 × Rotary Encoder (2-bit quadrature)  | [#377](https://www.adafruit.com/product/377) |  [PEC11R-4215F-S0024](https://www.mouser.com/ProductDetail/Bourns/PEC11R-4215F-S0024?qs=%2fha2pyFadujrq0cYyqrjqfzj8RH30yAAqLHU36uW%252bvgkXoG9QeJ4ZAKtmAuzI2d5)  | — | [#567](https://www.floris.cc/shop/en/knobs-buttons-joysticks/567-rotary-encoder-.html?search_query=encoder&results=12) _*(See note)_
 
-### Notes on choosing parts
+## Notes on choosing parts
 
 As always, if you wish to program the MiniKbd with Python, be sure that you purchase the black colored [Trinket M0](https://www.adafruit.com/product/3500) and *not* the blue colored Trinket 5v or 3.3v.
 
@@ -42,10 +44,10 @@ I went with a common “footprint” for the rotary encoder which you would find
 There's an incredibly wide range of options when choosing keyswitches and keycaps, and the MiniKbd footprint works with the popular Cherry MX, Cherry ML and Kailh Low Profile keyswitches. You'll find a wide array of options for [different levels of force or clickyness](http://www.keyboardco.com/blog/index.php/2012/12/an-introduction-to-cherry-mx-mechanical-switches/), the best advice I have is to search around and order a few and see what you like. I prefer the [“Tactile Brown” Kailh Low Profile keyswitches from Novel Keys](https://novelkeys.xyz/products/kailh-low-profile-switches) and don't forget to order the [keycaps](https://novelkeys.xyz/collections/keycaps/products/kailh-low-profile-keycaps-blank)
 
 
-### Enclosure
+## Enclosure
 *TK*
 
 
-### Building it
+## Building it
 *TK*
 
