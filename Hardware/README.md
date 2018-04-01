@@ -30,10 +30,8 @@ Part | Adafruit | Mouser | Tayda | Floris
 Part | Adafruit | Mouser | Tayda | Floris
 --- |:---:|:---:|:---:|:---:
 1 × Adafruit Trinket M0 | [#3500](https://www.adafruit.com/product/3500)  | [485-3500](https://www.mouser.com/ProductDetail/Adafruit/3500?qs=sGAEpiMZZMtw0nEwywcFgJjuZv55GFNm1yaWT2BHqYrZFoNRRhzyXg%3d%3d) | — | [#1947](https://www.floris.cc/shop/en/home/1947-adafruit-trinket-m0-for-use-with-circuitpython-arduino-ide.html)
-6 × Keyswitches and keycaps (Cherry MX/ML, Kailh) _*(See note)_  | — | [Cherry MX](https://www.mouser.com/Electromechanical/Switches/_/N-5g2h?Keyword=cherry+mx&FS=True) | — | —
-2 × Rotary Encoder (2-bit quadrature)  | [#377](https://www.adafruit.com/product/377) |  [PEC11R-4215F-S0024](https://www.mouser.com/ProductDetail/Bourns/PEC11R-4215F-S0024?qs=%2fha2pyFadujrq0cYyqrjqfzj8RH30yAAqLHU36uW%252bvgkXoG9QeJ4ZAKtmAuzI2d5)  | — | [#567](https://www.floris.cc/shop/en/knobs-buttons-joysticks/567-rotary-encoder-.html?search_query=encoder&results=12) _*(See note)_
-2 × 33k resistors (1/8 watt) | — | **TK** | [A-3813](https://www.taydaelectronics.com/resistors/1-8w-metal-film-resistors/r-33k-ohm-1-8w-1-metal-film-resistor.html) | —
-1 × 15k resistors (1/8 watt) | — | **TK** | [A-3803](https://www.taydaelectronics.com/resistors/1-8w-metal-film-resistors/r-15k-ohm-1-8w-1-metal-film-resistor.html) | —
+2 × Keyswitches and keycaps (Cherry MX/ML, Kailh) _*(See note)_  | — | [Cherry MX](https://www.mouser.com/Electromechanical/Switches/_/N-5g2h?Keyword=cherry+mx&FS=True) | — | —
+1 × Rotary Encoder (2-bit quadrature)  | [#377](https://www.adafruit.com/product/377) |  [PEC11R-4215F-S0024](https://www.mouser.com/ProductDetail/Bourns/PEC11R-4215F-S0024?qs=%2fha2pyFadujrq0cYyqrjqfzj8RH30yAAqLHU36uW%252bvgkXoG9QeJ4ZAKtmAuzI2d5)  | — | [#567](https://www.floris.cc/shop/en/knobs-buttons-joysticks/567-rotary-encoder-.html?search_query=encoder&results=12) _*(See note)_
 
 ### Notes on choosing parts
 
