@@ -1,3 +1,3 @@
-# MiniKBD Software
+# MiniKbd Software
 
 (To come!)
