@@ -10,18 +10,24 @@ The MiniKbd is designed to be built in one of three configurations:
 
 Since there's more than one way to build the MiniKbd, not all component footprints on the MiniKbd PCB need to be filled depending on the variation you choose to build. Here are the parts lists for all three versions:
 
-*Six Keyboard Keyswitches*
-1 x Adafruit Trinket M0
-6 x Keyswitches (Many options are available, see notes below)
-6 x 1N4148 Small Signal Diode
+#### Six Keyboard Keyswitches
+Part | Adafruit | Mouser | Tayda | Floris
+--- |:---:|:---:|:---:|:---:
+1 × Adafruit Trinket M0 | [#3500](https://www.adafruit.com/product/3500)  | [485-3500](https://www.mouser.com/ProductDetail/Adafruit/3500?qs=sGAEpiMZZMtw0nEwywcFgJjuZv55GFNm1yaWT2BHqYrZFoNRRhzyXg%3d%3d) | *n/a* | [#1947](https://www.floris.cc/shop/en/home/1947-adafruit-trinket-m0-for-use-with-circuitpython-arduino-ide.html)
+6 × Keyswitches (Many options are available, see notes below)  |  |  |  |
+6 × 1N4148 Small Signal Diode | [#1641](https://www.adafruit.com/product/1641)  |  [512-1N4148](https://www.mouser.com/ProductDetail/ON-Semiconductor-Fairchild/1N4148?qs=sGAEpiMZZMudZehw8RjeZWbu6z6oTQTL)  | [A-157](https://www.taydaelectronics.com/1n4148-switching-signal-diode.html) | *n/a*
 
-*Two Rotary Encoders*
-1 x Adafruit Trinket M0
-2 x Rotary Encoder (2-bit quadrature) PEC11R-4215F-S0024
-1 x 33k resistors
-2 x 15k resistor
+#### Two Rotary Encoders
+Part | Adafruit | Mouser | Tayda | Floris
+--- |:---:|:---:|:---:|:---:
+1 × Adafruit Trinket M0 | [#3500](https://www.adafruit.com/product/3500)  | [485-3500](https://www.mouser.com/ProductDetail/Adafruit/3500?qs=sGAEpiMZZMtw0nEwywcFgJjuZv55GFNm1yaWT2BHqYrZFoNRRhzyXg%3d%3d) | *n/a* | [#1947](https://www.floris.cc/shop/en/home/1947-adafruit-trinket-m0-for-use-with-circuitpython-arduino-ide.html)
+2 × Rotary Encoder (2-bit quadrature)  | [#377](https://www.adafruit.com/product/377) |  [PEC11R-4215F-S0024](https://www.mouser.com/ProductDetail/Bourns/PEC11R-4215F-S0024?qs=%2fha2pyFadujrq0cYyqrjqfzj8RH30yAAqLHU36uW%252bvgkXoG9QeJ4ZAKtmAuzI2d5)  | *n/a* | 
+2 × 33k resistors (1/8 watt) |  |  | [A-3813](https://www.taydaelectronics.com/resistors/1-8w-metal-film-resistors/r-33k-ohm-1-8w-1-metal-film-resistor.html) |  
+1 × 15k resistors (1/8 watt) |  |  | [A-3803](https://www.taydaelectronics.com/resistors/1-8w-metal-film-resistors/r-15k-ohm-1-8w-1-metal-film-resistor.html) |  
 
-*One rotary encoder and two keyboard keyswitches*
-1 x Adafruit Trinket M0
-2 x Keyswitches (Many options are available, see notes below)
-1 x Rotary Encoder (2-bit quadrature) PEC11R-4215F-S0024
+
+
+#### One rotary encoder and two keyboard keyswitches ####
+- 1 x Adafruit Trinket M0
+- 2 x Keyswitches (Many options are available, see notes below)
+- 1 x Rotary Encoder (2-bit quadrature) PEC11R-4215F-S0024
