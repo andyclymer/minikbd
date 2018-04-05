@@ -1,4 +1,4 @@
-update=Sunday, November 19, 2017 'PMt' 02:15:54 PM
+update=Thursday, April 05, 2018 'AMt' 01:17:11 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName30=Trinket
 LibName31=teensy
 LibName32=Switches
 LibName33=AudioJacks
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

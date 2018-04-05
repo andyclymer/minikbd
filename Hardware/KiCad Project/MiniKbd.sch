@@ -448,4 +448,6 @@ Wire Wire Line
 	8400 4250 8400 4400
 Wire Wire Line
 	8400 4400 8550 4400
+Text Notes 7050 7050 0    60   ~ 0
+MiniKbd\nAndy Clymer — www.andy.ac/minikbd\nRev 3 March 2018\nCC BY-NC-SA 4.0
 $EndSCHEMATC
