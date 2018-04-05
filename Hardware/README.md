@@ -68,26 +68,28 @@ An extremely common part, one diode is required for each keyswitch.
 
 Retailer | Part number
 ---|---
-Adafruit | [#1641](https://www.adafruit.com/product/1641) for a 10 pack
+Adafruit (US) | [#1641](https://www.adafruit.com/product/1641) for a 10 pack
 Mouser | [512-1N4148](https://www.mouser.com/ProductDetail/ON-Semiconductor-Fairchild/1N4148?qs=sGAEpiMZZMudZehw8RjeZWbu6z6oTQTL)
-Tayda Electronics | [A-157](https://www.taydaelectronics.com/1n4148-switching-signal-diode.html) for 1¢ each!
+Tayda Electronics (US) | [A-157](https://www.taydaelectronics.com/1n4148-switching-signal-diode.html) for 1¢ each!
 
 #### Rotary Encoders
 You will need a standard *2-bit quadrature* encoder, which means that with each click as you rotate it will send a [pattern of pulses on two pins](https://en.wikipedia.org/wiki/Rotary_encoder) (and not a “gray code” encoder which uses three pins). I went with a common “footprint” for the rotary encoder which you would find in the Bourns PEC11R series, but not all encoders out there will fit. Any encoders with a lighted shaft would have extra pins that won't fit on the MiniKbd circuit board. Also note that the rotary encoders from Floris have the correct footprint, however the shaft would be too short to fit with the enclosure, but it would work fine without the enclosure top. 
 
 Retailer | Part number
 ---|---
-Adafruit | [#377](https://www.adafruit.com/product/377) comes with a simple knob
+Adafruit (US) | [#377](https://www.adafruit.com/product/377) comes with a simple knob
 Mouser |  [PEC11R-4215F-S0024](https://www.mouser.com/ProductDetail/Bourns/PEC11R-4215F-S0024?qs=%2fha2pyFadujrq0cYyqrjqfzj8RH30yAAqLHU36uW%252bvgkXoG9QeJ4ZAKtmAuzI2d5)
-Floris | [#567](https://www.floris.cc/shop/en/knobs-buttons-joysticks/567-rotary-encoder-.html?search_query=encoder&results=12) will work but will be too short for the enclosure
+Floris (NL) | [#567](https://www.floris.cc/shop/en/knobs-buttons-joysticks/567-rotary-encoder-.html?search_query=encoder&results=12) will work but will be too short for the enclosure
+Kiwi (NL) | [COMP-ROT-ENC-24W](https://www.kiwi-electronics.nl/Roterende-pulsgever-rotary-encoder-met-drukknop-24-puls?search=encoder) comes with a simple knob
 
 Also, don't forget to order a knob for the encoder, the recommended Bourns encoder would need a “D-shaft” knob.
 
 Retailer | Part number
 ---|---
-Adafruit | [#2055](https://www.adafruit.com/product/2055) is a larger 35mm knob, it won't sit flush with the enclosure but still looks nice
-Thonk | [Davies 1900h clone D-shaft](https://www.thonk.co.uk/shop/1900h-d/)
-DJ Tech Tools | [Chroma Caps](https://store.djtechtools.com/products/chroma-caps-knobs-and-faders)
+Adafruit (US) | [#2055](https://www.adafruit.com/product/2055) is a larger 35mm knob, it won't sit flush with the enclosure but still looks nice
+Kiwi (NL) | [ADA-2055](https://www.kiwi-electronics.nl/scrubber-knop-voor-roterende-pulsgever-35mm) is the same 35mm knob from Adafruit
+Thonk (UK) | [Davies 1900h clone D-shaft](https://www.thonk.co.uk/shop/1900h-d/)
+DJ Tech Tools (US) | [Chroma Caps](https://store.djtechtools.com/products/chroma-caps-knobs-and-faders)
 
 
 #### Resistors
@@ -95,7 +97,7 @@ The “Two Encoders” build will need three resistors, but the two other builds
 
 Retailer | Part number
 ---|---
-Tayda Electronics | [A-3813](https://www.taydaelectronics.com/resistors/1-8w-metal-film-resistors/r-33k-ohm-1-8w-1-metal-film-resistor.html) for the 33k ohm (×2), and [A-3803](https://www.taydaelectronics.com/resistors/1-8w-metal-film-resistors/r-15k-ohm-1-8w-1-metal-film-resistor.html) for the 15k ohm (×1)
+Tayda Electronics (US) | [A-3813](https://www.taydaelectronics.com/resistors/1-8w-metal-film-resistors/r-33k-ohm-1-8w-1-metal-film-resistor.html) for the 33k ohm (×2), and [A-3803](https://www.taydaelectronics.com/resistors/1-8w-metal-film-resistors/r-15k-ohm-1-8w-1-metal-film-resistor.html) for the 15k ohm (×1)
 Mouser | **TK**
 
 
