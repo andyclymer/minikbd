@@ -50,9 +50,10 @@ The Trinket M0 can be purchased directly from the manufacturer, Adafruit, and ca
 
 Retailer | Part number
 ---|---
-Adafruit | Adafruit Trinket M0 [#3500](https://www.adafruit.com/product/3500)
+Adafruit (US) | Adafruit Trinket M0 [#3500](https://www.adafruit.com/product/3500)
 Mouser | Adafruit Trinket M0 [485-3500](https://www.mouser.com/ProductDetail/Adafruit/3500?qs=sGAEpiMZZMtw0nEwywcFgJjuZv55GFNm1yaWT2BHqYrZFoNRRhzyXg%3d%3d)
-Floris | Adafruit Trinket M0 [#1947](https://www.floris.cc/shop/en/home/1947-adafruit-trinket-m0-for-use-with-circuitpython-arduino-ide.html)
+Floris (NL) | Adafruit Trinket M0 [#1947](https://www.floris.cc/shop/en/home/1947-adafruit-trinket-m0-for-use-with-circuitpython-arduino-ide.html)
+Kiwi (NL) | Adafruit Trinket M0 [ADA-3500](https://www.kiwi-electronics.nl/arduino-trinket-m0?search=adafruit%20trinket%20m0)
 
 
 #### Keyswitches and keycaps
@@ -71,6 +72,7 @@ Retailer | Part number
 Adafruit (US) | [#1641](https://www.adafruit.com/product/1641) for a 10 pack
 Mouser | [512-1N4148](https://www.mouser.com/ProductDetail/ON-Semiconductor-Fairchild/1N4148?qs=sGAEpiMZZMudZehw8RjeZWbu6z6oTQTL)
 Tayda Electronics (US) | [A-157](https://www.taydaelectronics.com/1n4148-switching-signal-diode.html) for 1¢ each!
+Kiwi (NL) | [KW-1524](https://www.kiwi-electronics.nl/1n4148-diode-10-stuks)
 
 #### Rotary Encoders
 You will need a standard *2-bit quadrature* encoder, which means that with each click as you rotate it will send a [pattern of pulses on two pins](https://en.wikipedia.org/wiki/Rotary_encoder) (and not a “gray code” encoder which uses three pins). I went with a common “footprint” for the rotary encoder which you would find in the Bourns PEC11R series, but not all encoders out there will fit. Any encoders with a lighted shaft would have extra pins that won't fit on the MiniKbd circuit board. Also note that the rotary encoders from Floris have the correct footprint, however the shaft would be too short to fit with the enclosure, but it would work fine without the enclosure top. 
@@ -99,6 +101,7 @@ Retailer | Part number
 ---|---
 Tayda Electronics (US) | [A-3813](https://www.taydaelectronics.com/resistors/1-8w-metal-film-resistors/r-33k-ohm-1-8w-1-metal-film-resistor.html) for the 33k ohm (×2), and [A-3803](https://www.taydaelectronics.com/resistors/1-8w-metal-film-resistors/r-15k-ohm-1-8w-1-metal-film-resistor.html) for the 15k ohm (×1)
 Mouser | **TK**
+Kiwi (NL) | [COMP-RES-25-33K](https://www.kiwi-electronics.nl/Weerstand-33K-ohm-1-4-watt-5-procent-10-stuks) for the 33k ohm (×2), and [COMP-RES-25-15K](https://www.kiwi-electronics.nl/Weerstand-15K-ohm-1-4-watt-5-procent-10-stuks) for the 15k ohm (×1)
 
 
 #### Enclosure parts
