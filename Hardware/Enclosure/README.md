@@ -43,7 +43,7 @@ Keeping everything together, feed the MiniKbd circuit board on to the five screw
 
 #### 5)
 
-Screw on the four spacers. You can start by tightening them by hand, then once the screw is started you can remove the tape and finish screwing them on. No need to over-tighten!
+Screw on the four spacers. You can start by tightening them by hand, then once the screw is started you can remove the tape and finish with a screwdriver. No need to over-tighten!
 
 ![Step 5](./buildImages/05-Spacers.jpg)
 
