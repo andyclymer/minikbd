@@ -59,4 +59,8 @@ Finish by attaching the top enclosure piece with four shorter screws. This photo
 
 ![Step 7](./buildImages/07-FullStack.jpg)
 
+#### Done!
+
+The same instructions will also work for the versions with the rotary encoders.
+
 ![MiniKbd](/images/six-key-enclosure.jpg)
