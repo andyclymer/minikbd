@@ -15,34 +15,48 @@ Amazon and Ebay seem to be good places to buy these parts resonable price, I bou
 
 The set of nylon hardware that I've linked to above only has 10mm long screws which will be too long, but you can very easily clip 2mm or so off of the screws that you use on the top of the enclosure.
 
-#### Build guide
+### Build guide
 
-![Step 1](./buildImages/01-TapeScrews.jpg)
+#### 1)
 
 Start with the bottom piece of the enclosure. Feed the five longer screws through, and temporarily cover the screw heads with tape.
 
-![Step 2](./buildImages/02-TapeScrews2.jpg)
+![Step 1](./buildImages/01-TapeScrews.jpg)
+
+#### 2)
 
 Flip the bottom over so that the tape and screw heads are facing down (good thing the tape is holding it all together for now).
 
-![Step 3](./buildImages/03-Washers.jpg)
+![Step 2](./buildImages/02-TapeScrews2.jpg)
+
+#### 3)
 
 Place the 1mm washers on all five screws. This will keep the MiniKbd circuit board spaced just slightly off of the enclosure, which should be enough room for the solder joints on the bottom of the board to keep from pressing down unevenly.
 
-![Step 4](./buildImages/04-PCB.jpg)
+![Step 3](./buildImages/03-Washers.jpg)
+
+#### 4)
 
 Keeping everything together, feed the MiniKbd circuit board on to the five screws and washers.
 
-![Step 5](./buildImages/05-Spacers.jpg)
+![Step 4](./buildImages/04-PCB.jpg)
+
+#### 5)
 
 Screw on the four spacers. You can start by tightening them by hand, then once the screw is started you can remove the tape and finish screwing them on. No need to over-tighten!
 
-![Step 6](./buildImages/06-SpacersAndNut.jpg)
+![Step 5](./buildImages/05-Spacers.jpg)
+
+#### 6)
 
 Attach the nut to the fifth screw on the other end of the board. You might need a set of pliers to hold the nut while you attach the screw, or you might be able to just hold the nut by presing straight down with a finger.
 
-![Step 6](./buildImages/07-FullStack.jpg)
+![Step 6](./buildImages/06-SpacersAndNut.jpg)
+
+#### 7)
 
 Finish by attaching the top enclosure piece with four shorter screws. This photo shows the full stack up with some nice nickel plated screws for the top, but the nylon screws will work just fine too.
+
+![Step 7](./buildImages/07-FullStack.jpg)
 
 ![MiniKbd](/images/six-key-enclosure.jpg)
