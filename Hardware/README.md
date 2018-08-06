@@ -109,4 +109,7 @@ Plans for a simple enclosure to put it all in are outlined in the [Enclosure](./
 
 
 ## Building it
-*Working on a build guide!*
+Build guides are available for all three configurations:
+- [Build Doc — Six Keyboard Keyswitches](./Build-SixKeyswitches.md)
+- [Build Doc — Two Rotary Encoders](./Build-TwoEncoders.md)
+- [Build Doc — One Rotary Encoder and Two Keyboard Keyswitches](./OneEncoderTwoSwitches.md)
