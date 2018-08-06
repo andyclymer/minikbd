@@ -23,8 +23,6 @@ In this configuration, the only components to add to the circuit board are highl
 - Solder the headers onto the Trinket. It might help to use a small prototyping breadboard to make sure the header pins are aligned upright and not at an angle.
 - After attaching the headers, you might decide to clean things up a little bit by trimming the freshly soldered pins to be flush with the top of the Trinket board, and rounding off the freshly clipped solder joints by momentarily touching the soldering iron back to the roughly cut pin (as shown)
 
-![](/Hardware/buildImages/trinket-proto.jpg =600x450)
-
 ### Attach the Trinket to the MiniKbd board
 - Fit the Trinket to the MiniKbd, being careful to orient the Trinket with its USB port facing out.
 - Solder all 10 pins to the back of the MiniKbd, and clip the excess length of the pins flush with the bottom side of the board.
