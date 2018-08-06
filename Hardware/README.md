@@ -29,8 +29,8 @@ Qty | Component | Note
 :---:|---|---
 1 | Adafruit Trinket M0 | *The black “M0” and not the blue “3V” or “5V” variations of the Trinket*
 2 | Rotary Encoders | *2-bit quadrature, with a common footprint from the Bourns PEC11R series*
-1 | 33kΩ Resistors | *1/8 watt*
-2 | 15kΩ Resistors | *1/8 watt*
+1 | 33kΩ Resistors | *1/4 watt*
+2 | 15kΩ Resistors | *1/4 watt*
 — | Various enclosure parts | *Optional but recommended, see notes below*
 
 #### “One rotary encoder and two keyboard keyswitches”
@@ -95,11 +95,11 @@ DJ Tech Tools (US) | [Chroma Caps](https://store.djtechtools.com/products/chroma
 
 
 #### Resistors
-The “Two Encoders” build will need three resistors, but the two other builds won’t require any. The smaller and very common 1/8 Watt metal film resistors will fit nicely.
+The “Two Encoders” build will need three resistors, but the two other builds won’t require any. The smaller and very common 1/4 Watt metal film resistors will fit nicely.
 
 Retailer | Part number
 ---|---
-Tayda Electronics (US) | [A-3813](https://www.taydaelectronics.com/resistors/1-8w-metal-film-resistors/r-33k-ohm-1-8w-1-metal-film-resistor.html) for the 33k ohm (×2), and [A-3803](https://www.taydaelectronics.com/resistors/1-8w-metal-film-resistors/r-15k-ohm-1-8w-1-metal-film-resistor.html) for the 15k ohm (×1)
+Tayda Electronics (US) | [A-2290](https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/resistor-33k-ohm-1-4w-1-metal-film-pkg-of-10.html) for the 33k ohm (×2), and [A-2182](https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/10-x-resistor-15k-ohm-1-4w-1-metal-film-pkg-of-10.html) for the 15k ohm (×1)
 Mouser | **TK**
 Kiwi (NL) | [COMP-RES-25-33K](https://www.kiwi-electronics.nl/Weerstand-33K-ohm-1-4-watt-5-procent-10-stuks) for the 33k ohm (×2), and [COMP-RES-25-15K](https://www.kiwi-electronics.nl/Weerstand-15K-ohm-1-4-watt-5-procent-10-stuks) for the 15k ohm (×1)
 
