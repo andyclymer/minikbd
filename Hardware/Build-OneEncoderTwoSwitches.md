@@ -13,6 +13,10 @@ Qty | Component | Note
 1 | Rotary Encoder | *2-bit quadrature, with a common footprint from the Bourns PEC11R series*
 — | Various enclosure parts | *Optional but recommended, see notes below*
 
+In this configuration, the only components to add to the circuit board are highlighted below in blue. All other component footprints should be left unpopulated.
+
+![minikbd](/Hardware/buildImages/footprint-oneencoder.gif)
+
 ### Solder the diodes
 - Each keyswitch is paired up with one diode. Since only two keyswitches are used, you only need to add diodes for "D1" and "D2".
 - A diode is a directional component so its orientation on the board does matter. The "cathode" (or, negative) end of the diode will be marked with a contrasting color, usually black or white. It's important that you position the diode so that this stripe is at the same side as the stripe and triangle as marked on the board. 
