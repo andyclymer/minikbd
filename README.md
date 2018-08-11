@@ -4,10 +4,16 @@ The MiniKbd is a USB device based on the [Adafruit Trinket M0](https://learn.ada
 
 ![MiniKbd](/images/six-key.jpg)
 
-When plugging it in over USB, your computer will recognize it as a “USB HID” (Human Interface Device), as if a keyboard or mouse had been plugged in. The keystrokes that are output by the MiniKbd can be configured by editing the CircuitPython code running on the device.
+The MiniKbd is programmable with CircuitPython, each key can be easily customized to perform any combination of keystroke or mouse movement. When plugging it in over USB, your computer will recognize it as a “USB HID” (Human Interface Device), as if a keyboard or mouse had been plugged in. The keystrokes that are output by the MiniKbd can then be configured by editing the CircuitPython code running on the device.
 
 The project came out of the idea of wanting a keyboard that simply had a larger set of arrow keys that I could position to the left side of my keyboard. [OSH Park](http://www.oshpark.com), the prototyping service that I use  to manufacture PCBs will always make boards in sets of three, so instead of having three of the same device I designed the MiniKbd to be built in three separate ways —
 
+# Documentation and parts list
+
+The MiniKbd is a DIY project, and I hope that you'll build one! Complete build documentation, parts list, and KiCad source files can be found in the [Hardware](./Hardware) directory of this repo, and code examples can be found inthe [Software](./Software) directory.
+
+
+# Build the MiniKbd in one of three layouts
 
 ### Layout #1: “Six Keyboard Keyswitches”
 
