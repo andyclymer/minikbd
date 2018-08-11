@@ -19,3 +19,6 @@ Build guides are available for all three configurations:
 - [Build Doc — Six Keyboard Keyswitches](./Build-SixKeyswitches.md)
 - [Build Doc — Two Rotary Encoders](./Build-TwoEncoders.md)
 - [Build Doc — One Rotary Encoder and Two Keyboard Keyswitches](./OneEncoderTwoSwitches.md)
+
+## MiniKbd Enclosure
+A very simple laser cut enclosure can be made with the plans in the [Enclosure](./Enclosure) directory. Files are available to send for laser cutting at Ponoko if you don't have access to your own laser cutter.
