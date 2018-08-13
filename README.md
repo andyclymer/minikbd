@@ -2,7 +2,7 @@
 
 The MiniKbd is a USB device based on the [Adafruit Trinket M0](https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino) development board. 
 
-![MiniKbd](/images/six-key.jpg)
+![MiniKbd](/images/six-key-black.jpg)
 
 The MiniKbd is programmable with CircuitPython, each key can be easily customized to perform any combination of keystroke or mouse movement. When plugging it in over USB, your computer will recognize it as a “USB HID” (Human Interface Device), as if a keyboard or mouse had been plugged in. The keystrokes that are output by the MiniKbd can then be configured by editing the CircuitPython code running on the device.
 
