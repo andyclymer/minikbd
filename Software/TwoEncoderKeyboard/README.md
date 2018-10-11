@@ -1,0 +1,1 @@
+# MiniKbd Software — Two Encoders
