@@ -9,7 +9,7 @@ The MiniKbd is designed to be built in one of three configurations:
 - “One rotary encoder and two keyboard keyswitches”
 
 ## Buying it
-Build one yourself! A batch of MiniKbd circuit boards has been made, and they're available for sale at $6 each. [Contact me directly](http://www.andyclymer.com) if you'd like one!
+Build one yourself! A batch of MiniKbd circuit boards has been made, and they'll be available soon. In the mean time [Contact me directly](http://www.andyclymer.com) if you'd like one!
 
 ## Parts List
 The full list of parts for each of the three configurations along with a buying guide can be found in the [Parts List](./PartsList.md) file in this directory.
