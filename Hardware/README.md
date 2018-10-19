@@ -9,7 +9,7 @@ The MiniKbd is designed to be built in one of three configurations:
 - “One rotary encoder and two keyboard keyswitches”
 
 ## Buying it
-[The MiniKbd kit is available for sale on Tindie](https://www.tindie.com/products/andyclymer/minikbd-little-diy-mechanical-keyboard-kit/) if you'd like to build one (or two) for yourself!
+[The MiniKbd kit is available for sale on Tindie](https://www.tindie.com/products/andyclymer/minikbd-little-diy-mechanical-keyboard-kit/) if you'd like to build one (or two) for yourself! I'm selling the PCB, four sticker feet, and an optional set of hardware for use with the enclosure. The remaining parts will need to be sourced separately, but they can be found fairly easily from my guide below.
 
 ## Parts List
 The full list of parts for each of the three configurations along with a buying guide can be found in the [Parts List](./PartsList.md) file in this directory.
