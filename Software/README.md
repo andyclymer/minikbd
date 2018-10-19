@@ -20,6 +20,10 @@ To update CircuitPython, you can follow [the updating instructions provided by A
 
 After updating, you may also need to update some of the code libraries in the "lib" folder. Download the entire [bundle of Adafruit libraries](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/) for the version of CircuitPython that you just installed, and replace the older libraries with what you find here.
 
-# Sample code
+## Sample code
 
 Each of the directories in this part of the repo have sample code that you can drag and drop to the root level of the Trinket's file system. As soon as the new files show up, the device should reboot and it will be in use right away.
+
+## Before editing
+
+It might be really helpful to use the Terminal on your computer to connect to the device as a serial console, so that you can see any `print` statements and error messages while you work with the code on your MiniKBD. To do this, have a look at Adafruit's recommendation for [connecting to the serial console](https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-mac-and-linux).
