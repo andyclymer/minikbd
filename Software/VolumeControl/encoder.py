@@ -5,16 +5,6 @@ class Encoder:
 	"""
 	CircuitPython Rotary Encoder (without interrupts)
 	2017_10_16 Andy Clymer
-	
-	import board
-	from encoder import Encoder
-	def movedUp():
-		print("Up!")
-	def movedDown():
-		print("Down!")
-	e = Encoder(board.D0, board.D4, upCallback=movedUp, downCallback=movedDown)
-	while True:
-		e.update()
 	"""
 	
 	def __init__(self, pin1, pin2, upCallback=None, downCallback=None):
@@ -40,7 +30,7 @@ class Encoder:
 			(1, 0): {(0, 0):1, (1, 0):0, (1, 1):-1, (0, 1):2},
 			(0, 0): {(0, 1):1, (0, 0):0, (1, 0):-1, (1, 1):2},
 			(0, 1): {(1, 1):1, (0, 1):0, (0, 0):-1, (1, 0):2}}
-			
+	
 	def update(self):
 		self.new1 = self.d1.value
 		self.new2 = self.d2.value
