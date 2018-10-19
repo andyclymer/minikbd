@@ -12,6 +12,9 @@ The project came out of the idea of wanting a keyboard that simply had a larger 
 
 The MiniKbd is a DIY project, and I hope that you'll build one! Complete build documentation, parts list, and KiCad source files can be found in the [Hardware](./Hardware) directory of this repo, and code examples can be found inthe [Software](./Software) directory.
 
+## Buying it
+[The MiniKbd kit is available for sale on Tindie](https://www.tindie.com/products/andyclymer/minikbd-little-diy-mechanical-keyboard-kit/) if you'd like to build one (or two) for yourself!
+
 
 # Build the MiniKbd in one of three layouts
 
