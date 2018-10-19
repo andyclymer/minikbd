@@ -79,7 +79,7 @@ def enc2Down():
 # encoder types Command-A when clicked down.
 
 def button1():
-  # Press a combination of the command key and zero
+	# Press a combination of the command key and zero
 	kbd.press(Keycode.GUI, Keycode.ZERO)
 	kbd.release_all()
 	
