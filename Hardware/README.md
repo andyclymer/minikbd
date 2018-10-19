@@ -11,8 +11,6 @@ The MiniKbd is designed to be built in one of three configurations:
 ## Buying it
 [The MiniKbd kit is available for sale on Tindie](https://www.tindie.com/products/andyclymer/minikbd-little-diy-mechanical-keyboard-kit/) if you'd like to build one (or two) for yourself!
 
-A batch of MiniKbd circuit boards has been made, and they'll be available soon. In the mean time [Contact me directly](http://www.andyclymer.com) if you'd like one!
-
 ## Parts List
 The full list of parts for each of the three configurations along with a buying guide can be found in the [Parts List](./PartsList.md) file in this directory.
 
