@@ -1,8 +1,8 @@
 # MiniKbd Software — Two Encoder Keyboard
 
-This is the basic starting point for code that works with the build option of two rotary encoders..
+This is the basic starting point for using two rotatry encoders as a keyboard.
 
-As the rotary encoders turn, each click of the encoder triggers a keyboard command. The default here has one encoder typing "z" in one direction and "x" in the other, which map to the "Zoom In" and "Zoom Out" commands in the design application that I use, but feel free to customize as you wish!
+As the rotary encoders turn, each click of the encoder triggers a keyboard command. This is really useful for the kinds of keystrokes that you might normally click repeatedly — the default here has one encoder typing "z" in one direction and "x" in the other which already map to the "Zoom In" and "Zoom Out" commands in the design application that I use. Instant zoom dial. Another idea could be to type the keyboard command for "Volume Up" with each click in one direction and "Volume Down" in another direction, I've provided this as a separate example in the same repo.
 
 ### How to use this sample code
 
