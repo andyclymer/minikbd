@@ -18,6 +18,8 @@ The MiniKbd is a DIY project, and I hope that you'll build one! Complete build d
 
 # Build the MiniKbd in one of three layouts
 
+[The build documentation can be found in the Hardware directory of this repo.](./Hardware)
+
 ### Layout #1: “Six Keyboard Keyswitches”
 
 Six keyboard keys, with component footprints for the most popular Cherry MX, Cherry ML and Kalih Low Profile keyswitches. Choose keyswitches that are as clicky and springy as you wish.
