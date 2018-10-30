@@ -14,24 +14,25 @@ kbd = Keyboard()
 kbdLayout = KeyboardLayoutUS(kbd)
 
 # Customize these keycodes
+# https://circuitpython.readthedocs.io/projects/hid/en/latest/api.html#adafruit-hid-keycode-keycode
 buttonIDtoKeycode = {
-	1: Keycode.A,
-	2: Keycode.RIGHT_ARROW,
-	3: Keycode.UP_ARROW,
-	4: Keycode.DOWN_ARROW,
-	5: Keycode.SHIFT,
-	6: Keycode.LEFT_ARROW}
+	1: Keycode.ONE,
+	2: Keycode.TWO,
+	3: Keycode.THREE,
+	4: Keycode.FOUR,
+	5: Keycode.FIVE,
+	6: Keycode.SIX}
 
 
 def buttonDownCallback(buttonID, othersDown):
 	kbd.press(buttonIDtoKeycode[buttonID])
-	dot[0] = (255, 0, 0)
-	print("Button _down_", info)
+	dot[0] = (255, 0, 0) # Red LED
+	print("Button _down_", buttonID, othersDown)
 
 def buttonUpCallback(buttonID):
 	kbd.release(buttonIDtoKeycode[buttonID])
 	dot[0] = (0, 0, 0)
-	print("Button ^UPUP^", info)
+	print("Button ^UPUP^", buttonID)
 
 
 ButtonMatrix = MiniKbdButtons(

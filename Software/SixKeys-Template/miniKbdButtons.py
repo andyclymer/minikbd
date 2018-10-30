@@ -17,6 +17,7 @@ class MiniKbdButtons:
 			dict(row="D1", col="D4", id=4),
 			dict(row="D0", col="D3", id=5),
 			dict(row="D1", col="D3", id=6)]
+		self.initPins()
 	
 	def initPins(self):
 		# Rows
@@ -33,20 +34,21 @@ class MiniKbdButtons:
 	
 	def update(self):
 		# Compare old and new state
-		old = self.state
-		new = []
-		chng = None
+		oldSt = self.state
+		newSt = []
+		newBtn = None
 		for btn in self.btnMap:
-			r = self.pins[btn[row]]
+			r = self.pins[btn["row"]]
 			r.value = True
-			if self.pins[btn[col]].value:
-				new += [btn.id]
-				if not btn.id in old:
-					chng = btn.id
+			if self.pins[btn["col"]].value:
+				newSt += [btn["id"]]
+				if not btn["id"] in oldSt:
+					newBtn = btn["id"]
 			r.value = False
 		# Callbacks
-		for oID in old:
-			if not oID in new:
+		for oID in oldSt:
+			if not oID in newSt:
 				self.upCback(oID)
-		self.downCback(chng, new)
-		self.state = new
+		if newBtn:
+			self.downCback(newBtn, newSt)
+		self.state = newSt
