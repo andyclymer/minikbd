@@ -40,8 +40,9 @@ from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
 from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
 
-# Import the buttonMatrix library that I've provided
-from buttonMatrix import ButtonMatrix
+# Import the MiniKbdButtons library that I've provided
+# All of the code that deals with reacting to key changes is kept in here
+from miniKbdButtons import MiniKbdButtons
 
 # Create an object for the RGB "Dotstar" LED on the Trinket
 # and set the RGB value for Black, to get started.
@@ -56,74 +57,50 @@ kbdLayout = KeyboardLayoutUS(kbd)
 # Each key has a number, and one keycode. The full list of keycodes can be found here:
 # https://circuitpython.readthedocs.io/projects/hid/en/latest/api.html#adafruit-hid-keycode-keycode
 buttonIDtoKeycode = {
-    1: Keycode.A,
-    2: Keycode.RIGHT_ARROW,
-    3: Keycode.UP_ARROW,
-    4: Keycode.DOWN_ARROW,
-    5: Keycode.SHIFT,
-    6: Keycode.LEFT_ARROW}
-
+	1: Keycode.ONE,
+	2: Keycode.TWO,
+	3: Keycode.THREE,
+	4: Keycode.FOUR,
+	5: Keycode.FIVE,
+	6: Keycode.SIX}
 
 # Key callbacks
-# These functions are called when a key is pressed down, 
-# when a key is released, and when a key is held down for a length of time.
+
+# These functions are called when a key is pressed down and when a key is released.
 # You'll edit these: replace the print statements with whatever you want the device to do when
 # the keys are pressed or released.
-#   An info dictionary is passed along with it, with some helpful data:
-#     'buttonID' = 1 or 2, the key number
-#     'repeating' = True/False
-#     'holdTime' = How long the key has been held down for
-#     'othersDown' = A list of other buttonIDs that were already held down when this one was pressed
 
-def buttonDownCallback(info):
+# All of the buttons use the same callback functions, but the function receives the ID number of
+# the key so you can program the callbacks to do different things depending on which key is held down.
+# Another helpful thing is you'll also be given a list of othersDown which contains the button IDs
+# for any other buttons that are also being held down.
+
+# This simple example takes the buttonID and finds the keycode in the buttonIDtoKeycode dictionary
+# (shown above) and then tells the keyboard object to press this keycode.
+
+def buttonDownCallback(buttonID, othersDown):
     # When a key is pressed, find its keycode in the buttonIDtoKeycode dictionary,
     # and tell the keyboard object to press this keycode.
-    kbd.press(buttonIDtoKeycode[info["buttonID"]])
-    # Change the LED color, make it blue if the key is repeating, or red if the key hasn't repeated yet
-    if info["repeating"]:
-        dot[0] = (0, 0, 255)
-    else: dot[0] = (255, 0, 0)
-    print("Button _down_", info)
-            
-def buttonUpCallback(info):
+	kbd.press(buttonIDtoKeycode[buttonID])
+	dot[0] = (255, 0, 0) # Turn the LED to be 100% Red and 0% Green and Blue
+	print("Button _down_", buttonID, othersDown)
+
+def buttonUpCallback(buttonID):
     # When a key has been lifted, find its keycode again in the buttonIDtoKeycode dictionary
     # and tell the keyboard to release that key. Without doing this, the key would still be held down!
-    kbd.release(buttonIDtoKeycode[info["buttonID"]])
-    dot[0] = (0, 0, 0)
-    print("Button ^UPUP^", info)
-            
-def buttonHoldCallback(info):
-    # If the ButtonMatrix library sees that the key has been held down, this function is called
-    dot[0] = (255, 0, 128)
-    print("Button hold", info)
+	kbd.release(buttonIDtoKeycode[buttonID])
+	dot[0] = (0, 0, 0)
+	print("Button ^UPUP^", buttonID)
 
-# The six keys are wired in a matrix of rows and columns. A singnal is applied to the "sendPin"
-# for each row, and then each column is tested to see which keys were actually held down.
-# No need to change this dictionary, it matches the way the keyswitches are hard wired on the MiniKBD.
-buttonMap = [
-    dict(sendPinName="D0", receivePinName="D2", buttonID=1),
-    dict(sendPinName="D1", receivePinName="D2", buttonID=2),
-    dict(sendPinName="D0", receivePinName="D4", buttonID=3),
-    dict(sendPinName="D1", receivePinName="D4", buttonID=4),
-    dict(sendPinName="D0", receivePinName="D3", buttonID=5),
-    dict(sendPinName="D1", receivePinName="D3", buttonID=6)]
-
-# Make a new ButtonMatrix object for these two keys. This takes care of checking the state of 
-# the keys and it will call the button callback functions above when the state changes.
-
-Matrix = ButtonMatrix(
-            buttonMap, 
-            keyDownCallback=buttonDownCallback,
-            keyUpCallback=buttonUpCallback,
-            keyHoldCallback=buttonHoldCallback,
-            holdDelayTime=1,
-            holdRepeatTime=0.1)
+# Create a new MiniKbdButtons object, which we'll use in just a moment...
+ButtonMatrix = MiniKbdButtons(
+	keyDownCallback=buttonDownCallback, 
+	keyUpCallback=buttonUpCallback)
 
 # The main loop for the script. Now that all of the callback functions are defined, and the
-# objects are made, this script will continuously ask the Matrix object to update and check
+# objects are made, this script will continuously ask the ButtonMatrix object to update and check
 # for a state change. When the state does change, the objects will call the callback functions 
 # at the top of this script.
-
 while True:
-    Matrix.update()
+	ButtonMatrix.update()
 ```
