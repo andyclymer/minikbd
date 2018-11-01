@@ -1,6 +1,6 @@
 # MiniKbd
 
-The MiniKbd is a USB device based on the [Adafruit Trinket M0](https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino) development board. 
+The MiniKbd is a USB device based on the [Adafruit Trinket M0](https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino) development board which is programmable with CircuitPython. The parts are [available for sale on Tindie](https://www.tindie.com/products/andyclymer/minikbd-little-diy-mechanical-keyboard-kit/), with build documentation and software samples available in this repo.
 
 ![MiniKbd](/images/six-key-black.jpg)
 
