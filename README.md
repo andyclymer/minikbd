@@ -15,6 +15,8 @@ The MiniKbd is a DIY project, and I hope that you'll build one! Complete build d
 ## Buying it
 [The MiniKbd kit is available for sale on Tindie](https://www.tindie.com/products/andyclymer/minikbd-little-diy-mechanical-keyboard-kit/) if you'd like to build one (or two) for yourself!
 
+<a href="https://www.tindie.com/stores/andyclymer/?ref=offsite_badges&utm_source=sellers_andyclymer&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
+
 
 # Build the MiniKbd in one of three layouts
 
