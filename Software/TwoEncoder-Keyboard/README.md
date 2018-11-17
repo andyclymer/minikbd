@@ -97,7 +97,7 @@ e2 = Encoder(board.D0, board.D4, upCallback=enc2Up, downCallback=enc2Down)
 
 # The two encoders have buttons when they're clicked down, and they share an analog input pin.
 # This will be explained a little bit more below.
-buttonPin = AnalogIn(board.A1)
+buttonPin = AnalogIn(board.D2)
 
 
 # The main loop for the script. Now that all of the callback functions are defined, and the

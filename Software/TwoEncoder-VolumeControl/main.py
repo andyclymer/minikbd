@@ -56,7 +56,7 @@ def button2():
 e1 = Encoder(board.D1, board.D3, upCallback=enc1Up, downCallback=enc1Down)
 e2 = Encoder(board.D4, board.D0, upCallback=enc2Up, downCallback=enc2Down)
 
-buttonPin = AnalogIn(board.A1)
+buttonPin = AnalogIn(board.D2)
 
 
 while True:
