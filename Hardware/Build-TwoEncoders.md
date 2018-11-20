@@ -9,8 +9,8 @@ Qty | Component | Note
 :---:|---|---
 1 | Adafruit Trinket M0 | *The black “M0” and not the blue “3V” or “5V” variations of the Trinket*
 2 | Rotary Encoders | *2-bit quadrature, with a common footprint from the Bourns PEC11R series*
-1 | 33kΩ Resistors | *1/8 watt*
-2 | 15kΩ Resistors | *1/8 watt*
+1 | 33kΩ Resistors | *1/4 watt*
+2 | 15kΩ Resistors | *1/4 watt*
 — | Various enclosure parts | *Optional but recommended, see notes below*
 
 In this configuration, the only components to add to the circuit board are highlighted below in blue. All other component footprints should be left unpopulated.
