@@ -6,7 +6,7 @@ The MiniKbd doesn't need to be built in an enclosure, but at minumum I would hig
 
 For the enclosure, I've laser cut parts in 1/8 inch (3mm) acrylic sheet, which can be avaialble from many sources. Files are available this directory, in the [Laser.pdf](./Laser.pdf). You won't want to completely obscure the LEDs on the top of the Trinket so I would recommend translucent acrylic if available. I like using the [Frosted Satin Ice](https://www.canalplastic.com/collections/plexi-sheets/products/0d010-df-frosted-satin-ice-acrylic-sheet?variant=32918342606) that I buy at Canal Plastics in NYC, but I would encourage you to look for local options. 
 
-Files are also prepared in this directory using templates from [Ponoko](https://www.ponoko.com/) where the enclosures can be ordered very cheaply.
+Files are also prepared in this directory using templates from [Ponoko](https://www.ponoko.com/) where the enclosures can be ordered very cheaply. The files fit Ponoko’s smallest “P1” material size but the enclosure still only needs a small amount of material, feel free toa add your own art to the file before ordering.
 
 In addition to the laser cut acrylic parts and the rubber bumper feet, you will also need:
 - 4 × 8mm long M3 sized standoffs
