@@ -46,8 +46,8 @@ def button2():
 	kbd.release_all()
 
 
-e1 = Encoder(board.D1, board.D3, upCallback=enc1Up, downCallback=enc1Down)
-e2 = Encoder(board.D0, board.D4, upCallback=enc2Up, downCallback=enc2Down)
+e1 = Encoder(board.D4, board.D3, upCallback=enc1Up, downCallback=enc1Down)
+e2 = Encoder(board.D1, board.D0, upCallback=enc2Up, downCallback=enc2Down)
 
 buttonPin = AnalogIn(board.D2)
 
