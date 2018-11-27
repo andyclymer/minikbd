@@ -25,12 +25,15 @@ def fastTurn():
 
 
 def enc1Up():
+	print("enc-1-up")
 	cc.send(ConsumerControlCode.SCAN_NEXT_TRACK)
 
 def enc1Down():
+	print("enc-1-dn")
 	cc.send(ConsumerControlCode.SCAN_PREVIOUS_TRACK)
 
 def enc2Up():
+	print("enc-2-up")
 	if not fastTurn():
 		kbd.press(Keycode.ALT)
 		kbd.press(Keycode.SHIFT)
@@ -38,6 +41,7 @@ def enc2Up():
 	kbd.release_all()
 
 def enc2Down():
+	print("enc-2-dn")
 	if not fastTurn():
 		kbd.press(Keycode.ALT)
 		kbd.press(Keycode.SHIFT)
@@ -53,8 +57,8 @@ def button2():
 		cc.send(ConsumerControlCode.PLAY_PAUSE)
 
 
-e1 = Encoder(board.D1, board.D3, upCallback=enc1Up, downCallback=enc1Down)
-e2 = Encoder(board.D4, board.D0, upCallback=enc2Up, downCallback=enc2Down)
+e1 = Encoder(board.D4, board.D3, upCallback=enc1Up, downCallback=enc1Down)
+e2 = Encoder(board.D1, board.D0, upCallback=enc2Up, downCallback=enc2Down)
 
 buttonPin = AnalogIn(board.D2)
 
