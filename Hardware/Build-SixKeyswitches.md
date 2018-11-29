@@ -17,8 +17,14 @@ In this configuration, the only components to add to the circuit board are highl
 ![minikbd](/Hardware/buildImages/footprint-sixkeyswitches.gif)
 
 ### Solder the diodes
+
+![Diodes](/Hardware/buildImages/build-diodes-2.jpg)
+
 - Each keyswitch is paired up with one diode, so all six diode positions D1 through D6 should be filled.
 - A diode is a directional component so its orientation on the board does matter. The "cathode" (or, negative) end of the diode will be marked with a contrasting color, usually black or white. It's important that you position the diode so that this stripe is at the same side as the stripe and triangle as marked on the board. 
+
+![Diodes](/Hardware/buildImages/diodes-footprint.jpg)
+
 - The other side of the diode, the "anode" end, can go through either of the two remaining holes on the board. The extra hole is there for diodes that are too long to fit in the smaller set of holes.
 - It might help to place all diodes in their positions and cover them with tape before flipping the board over and soldering. This will help keep them all neatly aligned.
 - After soldering, clip the excess length of the diode leads flush with the bottom side of the board.
