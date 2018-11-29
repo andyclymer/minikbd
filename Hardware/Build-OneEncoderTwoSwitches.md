@@ -19,30 +19,16 @@ In this configuration, the only components to add to the circuit board are highl
 
 ### Solder the diodes
 
-![Diodes](/Hardware/buildImages/small/parts-diodes.jpg)
-![Diodes](/Hardware/buildImages/small/build-diodes-2.jpg)
-
 - Each keyswitch is paired up with one diode. Since only two keyswitches are used, you only need to add diodes for "D1" and "D2".
 - A diode is a directional component so its orientation on the board does matter. The "cathode" (or, negative) end of the diode will be marked with a contrasting color, usually black or white. It's important that you position the diode so that this stripe is at the same side as the stripe and triangle as marked on the board. 
-
-![Diodes](/Hardware/buildImages/diodes-footprint.jpg)
-
 - The other side of the diode, the "anode" end, can go through either of the two remaining holes on the board. The extra hole is there for diodes that are too long to fit in the smaller set of holes.
 - It might help to place all diodes in their positions and cover them with tape before flipping the board over and soldering. This will help keep them all neatly aligned.
 - After soldering, clip the excess length of the diode leads flush with the bottom side of the board.
 
 ### Prepare the Trinket M0
 
-![Trinket](/Hardware/buildImages/small/parts-trinket.jpg)
-
 - The Trinket M0 comes packaged with a strip of pin headers. Start by clipping the header strip into two smaller sections of five pins. It's okay if there's a small strip of header left over after doing this.
-
-![Trinket](/Hardware/buildImages/small/parts-trinket-proto.jpg)
-
 - Solder the headers onto the Trinket. It might help to use a small prototyping breadboard to make sure the header pins are aligned upright and not at an angle.
-
-![Trinket](/Hardware/buildImages/small/parts-trinket-headers.jpg)
-
 - After attaching the headers, you might decide to clean things up a little bit by trimming the freshly soldered pins to be flush with the top of the Trinket board, and rounding off the freshly clipped solder joints by momentarily touching the soldering iron back to the roughly cut pin (as shown)
 
 ### Attach the Trinket to the MiniKbd board
