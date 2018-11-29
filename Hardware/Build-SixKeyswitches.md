@@ -18,7 +18,8 @@ In this configuration, the only components to add to the circuit board are highl
 
 ### Solder the diodes
 
-![Diodes](/Hardware/buildImages/build-diodes-2.jpg)
+![Diodes](/Hardware/buildImages/small/parts-diodes.jpg)
+![Diodes](/Hardware/buildImages/small/build-diodes-2.jpg)
 
 - Each keyswitch is paired up with one diode, so all six diode positions D1 through D6 should be filled.
 - A diode is a directional component so its orientation on the board does matter. The "cathode" (or, negative) end of the diode will be marked with a contrasting color, usually black or white. It's important that you position the diode so that this stripe is at the same side as the stripe and triangle as marked on the board. 
@@ -30,15 +31,30 @@ In this configuration, the only components to add to the circuit board are highl
 - After soldering, clip the excess length of the diode leads flush with the bottom side of the board.
 
 ### Prepare the Trinket M0
+
+![Trinket](/Hardware/buildImages/small/parts-trinket.jpg)
+
 - The Trinket M0 comes packaged with a strip of pin headers. Start by clipping the header strip into two smaller sections of five pins. It's okay if there's a small strip of header left over after doing this.
+
+![Trinket](/Hardware/buildImages/small/parts-trinket-proto.jpg)
+
 - Solder the headers onto the Trinket. It might help to use a small prototyping breadboard to make sure the header pins are aligned upright and not at an angle.
+
+![Trinket](/Hardware/buildImages/small/parts-trinket-headers.jpg)
+
 - After attaching the headers, you might decide to clean things up a little bit by trimming the freshly soldered pins to be flush with the top of the Trinket board, and rounding off the freshly clipped solder joints by momentarily touching the soldering iron back to the roughly cut pin (as shown)
 
 ### Attach the Trinket to the MiniKbd board
+
+![Trinket](/Hardware/buildImages/small/build-diodes-6.jpg)
+
 - Fit the Trinket to the MiniKbd, being careful to orient the Trinket with its USB port facing out.
 - Solder all 10 pins to the back of the MiniKbd, and clip the excess length of the pins flush with the bottom side of the board.
 
 ### Connect the keyswitches
+
+![Trinket](/Hardware/buildImages/small/build-keyswitches-diodes.jpg)
+
 - All of the recommended styles of keyswitches will only have two pins, but you will notice that each position on the MiniKbd was designed to have holes for many popular types of keyswitches. Rotate your keyswitch until it lines up with the holes provided but don't force it if you aren't certain that it's lined up correctly. The recommended "Kailh Low-Profile" switches have two plastic pins which should fit firmly in two support holes on the board, so they might take a little bit of pressure to fit, but only press them in firmly if you're sure the keyswitch pins aren't being forced into the wrong holes.
 - If the keyswitch is loose, you may need to temporarily tape it to the board before turning it over and soldering.
 - I would recommend soldering only one of the two pins at first, checking to make sure that the keyswitch still appears to be aligned correctly before soldering the second pin.
