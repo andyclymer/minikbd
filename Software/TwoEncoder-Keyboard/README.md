@@ -92,8 +92,8 @@ def button2():
 # to the encoder, it figures out if the encoder was rotating "up" or "down", and then calls
 # the callback functions above.
 
-e1 = Encoder(board.D1, board.D3, upCallback=enc1Up, downCallback=enc1Down)
-e2 = Encoder(board.D0, board.D4, upCallback=enc2Up, downCallback=enc2Down)
+e1 = Encoder(board.D4, board.D3, upCallback=enc1Up, downCallback=enc1Down)
+e2 = Encoder(board.D1, board.D0, upCallback=enc2Up, downCallback=enc2Down)
 
 # The two encoders have buttons when they're clicked down, and they share an analog input pin.
 # This will be explained a little bit more below.
