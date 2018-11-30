@@ -2,10 +2,10 @@ import board
 import adafruit_dotstar as dotstar
 from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
-from adafruit_hid.mouse import Mouse
 from digitalio import DigitalInOut, Direction, Pull
 from analogio import AnalogIn
 from encoder import Encoder
+import time
 
 import random
 
@@ -14,36 +14,54 @@ dot[0] = (0, 0, 0)
 
 kbd = Keyboard()
 
+prevTurn = time.monotonic()
+def fastClick():
+	global prevTurn
+	now = time.monotonic()
+	diff = now - prevTurn
+	prevTurn = now
+	if diff < 0.1:
+		return True
+	return False
+
 
 # Encoder callbacks, rotating "up" and "down"
 
 def enc1Up():
+	print("enc-1-up")
 	dot[0] = (255, random.randint(0, 255), 0)
 	kbd.press(Keycode.Z)
 	kbd.release_all()
 	
 def enc1Down():
+	print("enc-1-down")
 	dot[0] = (0, random.randint(0, 255), 255)
 	kbd.press(Keycode.X)
 	kbd.release_all()
 	
 def enc2Up():
+	print("enc-2-up")
 	dot[0] = (255, random.randint(0, 255), 0)
 	kbd.press(Keycode.LEFT_BRACKET)
 	kbd.release_all()
 
 def enc2Down():
+	print("enc-2-down")
 	dot[0] = (0, random.randint(0, 255), 255)
 	kbd.press(Keycode.RIGHT_BRACKET)
 	kbd.release_all()
 	
 def button1():
-	kbd.press(Keycode.GUI, Keycode.ZERO)
-	kbd.release_all()
+	if not fastClick():
+		print("enc-1-button")
+		kbd.press(Keycode.GUI, Keycode.ZERO)
+		kbd.release_all()
 	
 def button2():
-	kbd.press(Keycode.GUI, Keycode.A)
-	kbd.release_all()
+	if not fastClick():
+		print("enc-2-button")
+		kbd.press(Keycode.GUI, Keycode.A)
+		kbd.release_all()
 
 
 e1 = Encoder(board.D4, board.D3, upCallback=enc1Up, downCallback=enc1Down)
