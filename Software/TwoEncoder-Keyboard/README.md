@@ -17,9 +17,9 @@ import board
 import adafruit_dotstar as dotstar
 from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
-from adafruit_hid.mouse import Mouse
 from digitalio import DigitalInOut, Direction, Pull
 from analogio import AnalogIn
+import time
 import random
 
 # Import the encoder library that I've provided
@@ -33,6 +33,17 @@ dot[0] = (0, 0, 0)
 # Create a new Keyboard object. We'll send keyboard commands to this later.
 kbd = Keyboard()
 
+# Add a small 1/10 sec delay between button presses, otherwise clicking the encoder button might hit the callback several times
+# This function will be checked before the button callback sends a keycode to the computer.
+prevTurn = time.monotonic()
+def fastClick():
+	global prevTurn
+	now = time.monotonic()
+	diff = now - prevTurn
+	prevTurn = now
+	if diff < 0.1:
+		return True
+	return False
 
 # Encoder callbacks
 
@@ -51,11 +62,13 @@ kbd = Keyboard()
 # random blueish color in the other direction.
 
 def enc1Up():
+	print("enc-1-up")
 	dot[0] = (255, random.randint(0, 255), 0)
 	kbd.press(Keycode.Z)
 	kbd.release_all()
 	
 def enc1Down():
+	print("enc-1-down")
 	dot[0] = (0, random.randint(0, 255), 255)
 	kbd.press(Keycode.X)
 	kbd.release_all()
@@ -65,11 +78,13 @@ def enc1Down():
 # the drawing layers. Between these two encoders I have a nice little interface!
 
 def enc2Up():
+	print("enc-2-up")
 	dot[0] = (255, random.randint(0, 255), 0)
 	kbd.press(Keycode.LEFT_BRACKET)
 	kbd.release_all()
 
 def enc2Down():
+	print("enc-2-down")
 	dot[0] = (0, random.randint(0, 255), 255)
 	kbd.press(Keycode.RIGHT_BRACKET)
 	kbd.release_all()
@@ -77,15 +92,21 @@ def enc2Down():
 # The encoders also work like buttons when they're pressed down. The first encoeder (the one that was
 # zooming in and out for me) will type Command-Zero which resets the zoom to 100%. The other
 # encoder types Command-A when clicked down.
+# Before returning the keycode, it calls the fastClick() function which will return True if 
+# the button had been pressed down 1/10 sec previously.
 
 def button1():
-	# Press a combination of the command key and zero
-	kbd.press(Keycode.GUI, Keycode.ZERO)
-	kbd.release_all()
+	if not fastClick():
+		print("enc-1-button")
+		# Press a combination of the command key and zero
+		kbd.press(Keycode.GUI, Keycode.ZERO)
+		kbd.release_all()
 	
 def button2():
-	kbd.press(Keycode.GUI, Keycode.A)
-	kbd.release_all()
+	if not fastClick():
+		print("enc-2-button")
+		kbd.press(Keycode.GUI, Keycode.A)
+		kbd.release_all()
 
 
 # Make a new objects for the rotary encoders. These take care of watching for changes in state
