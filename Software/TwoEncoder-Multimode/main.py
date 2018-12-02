@@ -81,7 +81,7 @@ def button2():
 	if mode == 0:
 		if not fastTurn():
 			cc.send(ConsumerControlCode.PLAY_PAUSE)
-	if mode == :
+	if mode == 1:
 			kbd.press(Keycode.GUI)
 			kbd.press(Keycode.ZERO)
 	kbd.release_all()
