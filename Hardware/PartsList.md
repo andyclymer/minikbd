@@ -45,11 +45,16 @@ Kiwi (NL) | Adafruit Trinket M0 [ADA-3500](https://www.kiwi-electronics.nl/ardui
 
 
 #### Keyswitches and keycaps
-There's an incredibly wide range of options when choosing keyswitches and keycaps, and the MiniKbd footprint works with the popular Cherry MX, Cherry ML and Kailh Low Profile keyswitches. Do a little bit of research first, the popular Cherry MX switches come in a wide array of options for [different levels of force or clickyness](http://www.keyboardco.com/blog/index.php/2012/12/an-introduction-to-cherry-mx-mechanical-switches/). I think the best advice I have is to order a few and see what you like. I prefer the [“Tactile Brown” Kailh Low Profile keyswitches from Novel Keys](https://novelkeys.xyz/products/kailh-low-profile-switches) and don't forget to order the [keycaps](https://novelkeys.xyz/collections/keycaps/products/kailh-low-profile-keycaps-blank). For the Cherry MX switches you have a wide range of options for keycaps from [Pimp My Keyboard](https://pimpmykeyboard.com/sale-items/blank-key-packs/).
+There's an incredibly wide range of options when choosing keyswitches and keycaps, and the MiniKbd footprint works with the popular Cherry MX, Cherry ML and Kailh Low Profile keyswitches. Do a little bit of research first, the popular Cherry MX switches come in a wide array of options for [different levels of force or clickyness](http://www.keyboardco.com/blog/index.php/2012/12/an-introduction-to-cherry-mx-mechanical-switches/). I think the best advice I have is to order a few and see what you like. 
+
+I prefer the [“Tactile Brown” Kailh Low Profile keyswitches from Novel Keys](https://novelkeys.xyz/products/kailh-low-profile-switches) and don't forget to order the [keycaps](https://novelkeys.xyz/collections/keycaps/products/kailh-low-profile-keycaps-blank). 
+
+For larger full-height keyswitches, I like using [Gateron Silent Brown](https://novelkeys.xyz/collections/switches/products/gateron-silent-switches?variant=19441364303965) which are also tactile so that you can feel when you've made a click, but are far less noisy than most other keyswitches. These switches can use the same keycaps as the popular Cherry MX switches, and a wide range of keycap options are availble from [Pimp My Keyboard](https://pimpmykeyboard.com/sale-items/blank-key-packs/), I prefer the "DSA" profile keycaps.
 
 Retailer | Part number
 ---|---
 Novel Keys | [Kailh Low Profile Keyswitches](https://novelkeys.xyz/products/kailh-low-profile-switches) and [Kailh Low Profile Keycaps](https://novelkeys.xyz/collections/keycaps/products/kailh-low-profile-keycaps-blank)
+Novel Keys | [Gateron Silent Brown Keyswitches](https://novelkeys.xyz/collections/switches/products/gateron-silent-switches?variant=19441364303965) and [DSA Profile Keycaps](https://pimpmykeyboard.com/dsa-1-space-pack-of-10/)
 Mouser | [Cherry MX search results](https://www.mouser.com/Electromechanical/Switches/_/N-5g2h?Keyword=cherry+mx&FS=True) with lots of options
 
 #### 1N4148 Small Signal Diodes
