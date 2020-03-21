@@ -4,13 +4,14 @@ import adafruit_dotstar as dotstar
 from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
 from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
+import usb_hid
 
 from miniKbdButtons import MiniKbdButtons
 
 dot = dotstar.DotStar(board.APA102_SCK, board.APA102_MOSI, 1, brightness=0.2)
 dot[0] = (0, 0, 0)
 
-kbd = Keyboard()
+kbd = Keyboard(usb_hid.devices)
 kbdLayout = KeyboardLayoutUS(kbd)
 
 # Customize these keycodes

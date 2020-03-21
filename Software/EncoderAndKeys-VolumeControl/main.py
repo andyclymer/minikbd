@@ -6,13 +6,14 @@ from adafruit_hid.consumer_control_code import ConsumerControlCode
 from digitalio import DigitalInOut, Direction, Pull
 import time
 import adafruit_dotstar as dotstar
+import usb_hid
 
 from encoder import Encoder
 
 dot = dotstar.DotStar(board.APA102_SCK, board.APA102_MOSI, 1, brightness=0.1)
 dot[0] = (30, 0, 255)
 
-kbd = Keyboard()
+kbd = Keyboard(usb_hid.devices)
 cc = ConsumerControl()
 
 

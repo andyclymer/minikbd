@@ -6,13 +6,14 @@ from digitalio import DigitalInOut, Direction, Pull
 from analogio import AnalogIn
 from encoder import Encoder
 import time
+import usb_hid
 
 import random
 
 dot = dotstar.DotStar(board.APA102_SCK, board.APA102_MOSI, 1, brightness=0.1)
 dot[0] = (0, 0, 0)
 
-kbd = Keyboard()
+kbd = Keyboard(usb_hid.devices)
 
 prevTurn = time.monotonic()
 def fastClick():
