@@ -10,7 +10,7 @@ from encoder import Encoder
 import time
 import random
 
-kbd = Keyboard()
+kbd = Keyboard(usb_hid.devices)
 cc = ConsumerControl()
 dot = dotstar.DotStar(board.APA102_SCK, board.APA102_MOSI, 1, brightness=0.5)
 
