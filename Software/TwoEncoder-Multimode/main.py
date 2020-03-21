@@ -9,6 +9,7 @@ from analogio import AnalogIn
 from encoder import Encoder
 import time
 import random
+import usb_hid
 
 kbd = Keyboard(usb_hid.devices)
 cc = ConsumerControl()
